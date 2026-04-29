@@ -191,6 +191,6 @@ S poruchami je do modelu přidáno malé konstantní zrychlení a dva krátké i
 
 Pro zvolenou poruchu vyšel konečný polohový norm přibližně 0.00052 m pro LQR i MPC. Vstup zůstal omezen saturací +-10 deg.
 
-## 7. Zaver
+## 7. Závěr
 
 Byl sestaven nelineární model kuličky na desce se dvěma vstupy, linearizován v klidovém pracovním bodě a diskretizován pro číslicovou regulaci. Řiditelnost linearizovaného modelu byla ověřena rankem matice řiditelnosti. Pro stabilizaci byl navržen nekonečnohorizontový LQR a MPC s omezením vstupu a stavu. Simulace jsou provedeny na nelineárním modelu pro případ bez poruch i s poruchami.
